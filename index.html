@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name – Accessibility Bio</title>
+
+    <!-- REQUIRED: external CSS only -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <p>Student interested in <strong>accessible computing</strong> and inclusive design.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#accessibility">Accessibility Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="bio-links.html">Class Bio Links Page</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <!-- NON-DECORATIVE IMAGE (required) -->
+        <figure>
+            <img src="your-photo.jpg" alt="Photo of Your Name smiling">
+            <figcaption>A recognizable photo of me.</figcaption>
+        </figure>
+
+        <p>
+            Hello! My name is <strong>Your Name</strong>.  
+            I am interested in <em>web development</em>, design, and making technology usable for everyone.
+        </p>
+
+        <h3>My Interests</h3>
+        <!-- LIST REQUIRED -->
+        <ul>
+            <li>Accessible web design</li>
+            <li>Inclusive technology</li>
+        </ul>
+    </section>
+
+    <!-- ACCESSIBILITY SECTION -->
+    <section id="accessibility">
+        <h2>My Accessibility Interests</h2>
+
+        <p>
+            I care about accessibility because technology should be usable by 
+            <strong>everyone</strong>, including people with disabilities.
+        </p>
+
+        <p>
+            I am especially interested in <em>screen reader support</em> and 
+            accessible visual design.
+        </p>
+
+        <!-- DECORATIVE IMAGE (required) -->
+        <img src="decorative-icon.png" alt="" role="presentation">
+    </section>
+
+    <!-- CONTACT FORM (required) -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form action="mailto:your@email.com" method="post">
+            <fieldset>
+                <legend>Send me a message</legend>
+
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Your Name</p>
+</footer>
+
+</body>
+</html>

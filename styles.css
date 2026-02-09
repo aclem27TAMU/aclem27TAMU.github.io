@@ -1,0 +1,27 @@
+/* TYPOGRAPHY */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #222;
+}
+
+/* LAYOUT */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
