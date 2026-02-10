@@ -1,27 +1,117 @@
-/* TYPOGRAPHY */
+/* ---------- Base ---------- */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #222;
-}
-
-/* LAYOUT */
-body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
+    background-color: #eaf7ef;
+    color: #1b1b1b;
+    line-height: 1.6;
 }
 
-header, nav, main, footer {
-    padding: 1rem;
+/* ---------- Header ---------- */
+.site-header {
+    background: #2f7d4a;
+    color: white;
+    padding: 2rem;
+    text-align: center;
 }
 
-section {
+.tagline {
+    font-size: 1.1rem;
+}
+
+/* ---------- Nav ---------- */
+nav {
+    background: #1e5c36;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.nav-list li {
+    margin: 0 1rem;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-list a:focus,
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Layout ---------- */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* ---------- Cards ---------- */
+.card {
+    background: white;
+    padding: 1.5rem;
     margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
+/* ---------- Images ---------- */
 img {
-    max-width: 200px;
-    height: auto;
-    border-radius: 8px;
+    max-width: 180px;
+    border-radius: 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+.decorative {
+    max-width: 80px;
+    opacity: 0.6;
+}
+
+/* ---------- Form ---------- */
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 1rem;
+    background: #2f7d4a;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background: #25663c;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1e5c36;
+    color: white;
 }
