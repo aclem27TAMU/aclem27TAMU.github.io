@@ -65,7 +65,9 @@ main {
 
 /* ---------- Images ---------- */
 img {
-    max-width: 180px;
+    max-width: 100%;
+    width: 350px;
+    height: auto;
     border-radius: 10px;
 }
 
