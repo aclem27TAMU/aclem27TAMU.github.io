@@ -142,3 +142,16 @@ footer {
         text-align: center;
     }
 }
+
+.interests-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+/* make cherry bigger */
+.cherry {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+}
